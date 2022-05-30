@@ -18,8 +18,9 @@
 ## How to run
 
 - Clone project from git(git clone https://github.com/kssonu4u/credit-suisse-problem.git)
-- Go inside credit-suisse-problem folder
-- Run mvn clean install command and make sure it is successfull.This will update/create new jar file in target folder
+- Go inside credit-suisse-problem folder( cd credit-suisse-problem/ ) 
+- Run below command and make sure it is successfull.This will update/create new jar file in target folder
+- mvn clean install
 - Run below command
 - java -jar target/credit-suisse-1.0-SNAPSHOT.jar  src/main/resources/logfile.txt
 - Note the logs printed on the console with event saved and displayed.
