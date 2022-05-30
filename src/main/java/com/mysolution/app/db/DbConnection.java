@@ -12,14 +12,7 @@ public class DbConnection {
         try (InputStream input = new FileInputStream("src/main/resources/config.properties")) {
 
             Properties prop = new Properties();
-
-            // load a properties file
             prop.load(input);
-
-            // get the property value and print it out
-            System.out.println(prop.getProperty("db.url"));
-            System.out.println(prop.getProperty("db.user"));
-            System.out.println(prop.getProperty("db.password"));
             db = prop.getProperty("db.url");
             user = prop.getProperty("db.user");
             password = prop.getProperty("db.password");

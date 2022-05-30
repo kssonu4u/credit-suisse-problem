@@ -35,7 +35,7 @@ public class DbEventService {
             logger.debug("Event successfully saved in DB: {}", eventList);
         } catch (
                 SQLException e) {
-            System.err.println(e.getMessage());
+            logger.error("SqlException has occurred {}", e.getMessage());
         } finally {
             try {
                 // Close connection
