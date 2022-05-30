@@ -1,0 +1,8 @@
+com/mysolution/app/service/DbEventService.class
+com/mysolution/app/model/InputEvent.class
+com/mysolution/app/service/ReadEventService.class
+com/mysolution/app/service/ProcessEventService.class
+com/mysolution/app/model/EventCalculation.class
+com/mysolution/app/CreditSuisseApplication.class
+com/mysolution/app/db/DbConnection.class
+com/mysolution/app/model/Event.class
